@@ -64,3 +64,58 @@ body {
     width: 900px;
     flex: auto;
 }
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.random-info h3 {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1f2937;
+    flex: 1;
+    justify-content: center;
+}
+
+.module-section {
+    display: flex;
+    justify-content: center;
+}
+
+.module {
+    display: flex;
+    flex-direction: column;
+}
+
+.module img {
+    border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    flex: auto;
+}
+
+.module p {
+    color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    color: #1f2937;
+    padding: 50px 200px;
+}
+
+.quote-text p {
+    flex: 1;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-text strong {
+    flex: 1;
+    justify-content: right;
+}
