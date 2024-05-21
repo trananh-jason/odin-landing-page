@@ -75,17 +75,22 @@ body {
     font-weight: 1000;
     color: #1f2937;
     flex: 1;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .module-section {
     display: flex;
+    align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .module {
     display: flex;
     flex-direction: column;
+    margin: auto;
+    justify-content: center;
 }
 
 .module img {
@@ -93,10 +98,12 @@ body {
     height: 150px;
     width: 150px;
     flex: auto;
+    margin: auto;
 }
 
 .module p {
     color: #1f2937;
+    text-align: center;
 }
 
 .quote {
