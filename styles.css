@@ -119,3 +119,34 @@ body {
     flex: 1;
     justify-content: right;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 15px 100px;
+    display: flex;
+}
+
+.sign-up-text {
+    color: #e5e7eb;
+    margin-right: 100px;
+    flex: 8 1 0;
+}
+
+.sign-up button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-color: #e5e7eb;
+    height: 30px;
+    width: 90px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    flex: auto;
+}
